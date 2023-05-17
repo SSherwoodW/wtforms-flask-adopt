@@ -1,0 +1,20 @@
+{% extends 'base.html' %} 
+
+{% block title %} Add Pet Form {% endblock %}
+
+{% block content %}
+<div class="container">
+    <h4 class="display-4 text-center">Edit Pet Information</h4>
+     <div class="row justify-content-center">
+      <div class="col-md-8">
+       <form method="post">
+        {% include "_form.html" %}
+         <button class="btn btn-primary" type="submit">Submit</button>
+       </form>
+      </div>
+     </div>
+    </div>
+{% endblock %}
+
+
+  
